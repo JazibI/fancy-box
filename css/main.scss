@@ -1,0 +1,39 @@
+@import "scss/bootstrap";
+
+
+// *{
+//     border: 1px solid red;
+// }
+
+
+//styling of gallery section
+
+.gallery{
+  padding-top: 2.5rem;
+  .sec_heading{
+    margin-bottom: 2.5rem;
+  } 
+}
+
+.gallery .custon_sec{
+  background-color: $color-green;
+  padding: 2rem 0;
+
+  h2{
+    font-size: calc(1.7rem + .5vw);
+    font-weight: bold;
+    color: $white;
+    small{
+      font-weight: normal;
+      font-size: 50%;
+      display: block;
+    }
+  }
+}
+
+.btn_enroll{
+  background-color: $white;
+  border-radius: .5rem;
+  color: $black;
+}
+//styling of footer section
